@@ -36,3 +36,35 @@
     color: #1E245D;
     padding: 20px; 
 }
+
+.segundo__perfil{
+  background-color: $color-segundo;
+  color: $color-tipo;
+  width: 100%;
+  height: 500px;
+  position: absolute;
+ .segundo__perfil--mini{
+  background-color: white;
+  color: $color-gris;
+  width: 200px;
+  height: 200px;
+  border-radius: 120px;
+  border: 2px solid $color-tipo;
+  margin-top: 40px;
+  margin-left: 300px;
+      h2{
+        text-align: center;
+        width: 100px;
+        margin-left: 60px;
+        margin-top: 80px;
+
+      }
+}
+
+.segundo__texto{
+  display: flex;
+  flex-direction: column;
+  margin-left: 600px;
+  margin-top: 0;
+}
+}
